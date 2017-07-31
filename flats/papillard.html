@@ -6,17 +6,17 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-f470777f.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <title></title>
+    <link href="../stylesheets/application-f470777f.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
 
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-  <img src="images/logo-acc9c0ec.png" alt="logo" />
+  <img src="../images/logo-acc9c0ec.png" alt="logo" />
   </a>
 
   <!-- Right Navigation -->
@@ -55,27 +55,64 @@
   </div>
 </div>
 
-    <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/ssaunier" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" alt="Ssaunier" />
-</a>          <h2>Sébastien Saunier</h2>
-          <p>
-<a href="https://github.com/ssaunier" target="_blank">              <i class="fa fa-github"></i> ssaunier
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/Papillard" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/Papillard" class="img-circle" alt="Papillard" />
-</a>          <h2>Boris Paillard</h2>
-          <p>
-<a href="https://github.com/Papillard" target="_blank">              <i class="fa fa-github"></i> Papillard
-</a>          </p>
-        </li>
-    </ul>
+    
+
+<div class="flat-banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url(https://kitt.lewagon.com/placeholder/cities/brussels)"></div>
+
+
+
+<div class="flat-presentation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <div class="flat-resume">
+          <div class="flat-owner">
+            <img src="https://kitt.lewagon.com/placeholder/users/papillard" class="img-circle" alt="Papillard" />
+            <p>papillard</p>
+          </div>
+          <div class="flat-infos">
+            <h1>Small flat in Tokyo</h1>
+            <p>PARIS, FRANCE</p>
+            <div class="rating">
+              <i class='fa fa-star' style='color: #ffb400'></i><i class='fa fa-star' style='color: #ffb400'></i><i class='fa fa-star' style='color: #ffb400'></i>
+              <i class='fa fa-star' style='color: #cacccd'></i><i class='fa fa-star' style='color: #cacccd'></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-xs-12 col-sm-4">
+        <form action="#">
+          <h2>Book this flat</h2>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="checkin">
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="checkout">
+              </div>
+            </div>
+          </div>
+          <select name="guests" id="guest" class="form-control">
+            <option value="1">1 guest</option>
+            <option value="2">2 guests</option>
+            <option value="3">3 guests</option>
+          </select>
+          <input type="submit" value="Book it" class="btn btn-primary btn-flat">
+        </form>
+      </div>
+    </div>
   </div>
 </div>
+
+
+<!--
+linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50% -->
 
     <div class="footer">
   <div class="footer-links">
